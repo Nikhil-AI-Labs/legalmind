@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.env.local
+.env.*.local
+Thumbs.db
+
+# Project specific
+uploads/
+risk_analysis_results/
+vector_db/
+rag_storage/raw_chunks/
+*.log
+
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+docs/
